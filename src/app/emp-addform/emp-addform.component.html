@@ -1,0 +1,86 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+
+<div class="container">
+
+
+
+
+
+
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;">
+	<h4 class="card-title mt-3 text-center">Create Empolyee Account</h4>
+	<p class="text-center">Get started with your free Employee account</p>
+
+	<p class="divider-text">
+        <span class="bg-light">OR</span>
+    </p>
+	
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="" [(ngModel)]="fullname" class="form-control" placeholder="Full name" type="text">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+		 </div>
+        <input name="" [(ngModel)]="email" class="form-control" placeholder="Email address" type="email">
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+		</div>
+		
+    	<input name="" [(ngModel)]="mobileno" class="form-control" placeholder="Phone number" type="text">
+       
+    </div> <!-- form-group// -->
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa-solid fa-calendar-days"></i></span>
+		</div>
+		
+        <input class="form-control" [(ngModel)]="dob" placeholder="DD/MM/YY" type="date">
+       
+    </div>
+   
+
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+		</div>
+		<select class="form-control"  name="job" >
+			<option selected="" name="job"> Select job type</option>
+			<option >Web Designer</option>
+			<option >Software Tester</option>
+			<option >Full-Stack Developer</option>
+		</select>
+	</div> <!-- form-group end.// -->
+    
+        
+                                             
+    <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-block" (click)="Addemp();"> Submit Details  </button>
+    </div> <!-- form-group// -->   
+    <div class="form-check d-flex justify-content-center mb-5">
+      <input class="me-2" type="checkbox" value="" id="form2Example3c" />
+      <label class="form-check-label" for="form2Example3">
+        I agree all statements in <a href="#!">Terms of service</a>
+      </label>
+    </div>   
+                                                                   
+
+</article>
+</div> <!-- card.// -->
+
+</div> 
+<!--container end.//-->
+
+
